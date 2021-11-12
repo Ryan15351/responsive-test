@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"> <!-- incluir webfont da fonte Roboto -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="../static/main.css">
+    
+    <title>Nav-Bar</title>
+</head>
+<body>
+    <script src="../static/app.js"></script>
+    <div class="navegacao-fundo-auxiliar" id="auxiliar-menu"></div>
+    <nav>
+        <h2>Ryan Mendes</h2>
+        <ul>
+            <li class="ativo"><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Mim</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <span class="separador"></span>
+        <h3>Redes Sociais</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Intagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkedin</a></li>
+        </ul>
+    </nav>
+
+    <a id="menu-btn" class="btn-toggle-menu" style="color: red;;"><img src="../static/images/menu.png" alt=""></a>
+    <main>
+        <header>
+            <h1>Portifoliio</h1>
+        </header>
+        <section>
+            <article class="cartao" onclick="google()"></article>
+            <article class="cartao" onclick="facebook()"></article>
+            <article class="cartao" onclick="twitter()"></article>
+            <article class="cartao"></article>
+            <article class="cartao"></article>
+            <article class="cartao"></article>
+        </section>
+    </main>
+
+</body>
+</html>
